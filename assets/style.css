@@ -1,6 +1,8 @@
 html, body {
-    height: 80%;
+    height: 90%;
 }
+
+
 
 html {
     display: table;
@@ -10,11 +12,19 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
+    
 }
 
-html {
-    background-color: black;
+.wrapper {
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 10px white;
+}
 
+body {
+    background-image: url("starry-night-1.gif");
+    background-repeat: repeat;
 }
 
 h1 {
@@ -23,6 +33,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;    
     text-align: center;
     text-transform: uppercase;
+    padding: 20px;
 }
 
 h2 {
@@ -39,5 +50,6 @@ h3 {
 .variable {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 }
