@@ -43,8 +43,11 @@ function printVars() {
 }
 
 
+setLettersFoundToSpaces()
+window.onload = function () { document.getElementById("currentWord").innerHTML=lettersFound};
 //I'm starting the game HERE because I read that I need to have functions only called below where they are defined... so here ya go.
-setLettersFoundToSpaces();
+
+
 
 //And that's it, the game's variables are all set to run.
 
